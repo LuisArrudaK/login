@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+body {
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Anonymous Pro', monospace;
+}
+
+
+header {
+    background-color: rgba(33, 12, 12, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header,
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    text-align: center;
+    margin-left: 300px;
+    list-style: none;
+
+}
+
+
+h1 {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 255);
+    font-family: "Special Elite", monospace;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+h1:after {
+    content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+}
+
+.typing-animation {
+    margin-top: 250px;
+    animation: blinkCursor 400ms steps(40) infinite normal,
+        typing 2s steps(40) 1s normal both;
+}
+
+/* The typewriter cursor effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 350px;
+    font-size: 30px;
+    color: white;
+
+}
+
+p {
+    text-align: justify;
+    margin-left: 350px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+    margin-right: 300px;
+    color: white;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
