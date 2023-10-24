@@ -59,7 +59,7 @@ h1:after {
 }
 
 .typing-animation {
-    margin-top: 250px;
+    margin-top: 130px;
     animation: blinkCursor 400ms steps(40) infinite normal,
         typing 2s steps(40) 1s normal both;
 }
